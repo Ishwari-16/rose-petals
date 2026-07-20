@@ -169,7 +169,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       items: [
         { id: "blouse", title: "Designer Blouse Stitching", desc: "Perfect fit, sophisticated cuts, and high-fashion neckline designs customized for you.", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
         { id: "aari", title: "Aari & Zardosi Hand Embroidery", desc: "Exquisite hand-crafted embroidery featuring premium zari and gorgeous gemstone threadwork.", image: "https://images.meesho.com/images/products/908156114/8xnqe_512.webp?width=512" },
-        { id: "bridal", title: "Bridal Blouse Masterpieces", desc: "Premium wedding blouses with royal embroidery, customized padding, and designer tassels.", image: "/src/assets/images/bridal_blouse_maggam_1784565616116.jpg" },
+        { id: "bridal", title: "Bridal Blouse Masterpieces", desc: "Premium wedding blouses with royal embroidery, customized padding, and designer tassels.", image: "https://i.pinimg.com/236x/79/f8/bf/79f8bfedcbef1813700c2cd5f90ced17.jpg" },
         { id: "fancy", title: "Fancy Blouses", desc: "Chic halter-necks, backless, puff-sleeves, and designer patchwork to elevate any saree.", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
         { id: "punjabi", title: "Punjabi Dresses & Salwar Suits", desc: "Comfortable and perfectly structured Patiala suits, Anarkalis, and premium designer wear.", image: "https://thenmozhidesigns.com/cdn/shop/files/3S2A9824.jpg" },
         { id: "kurti", title: "Custom Kurti Stitching", desc: "Elegant daily-wear and office-wear Kurtis with creative collar and sleeve structures.", image: "https://i.pinimg.com/236x/41/34/2e/41342e071dcdf338e6d27fefbad17eda.jpg" },
@@ -324,7 +324,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       items: [
         { id: "blouse", title: "डिजाइनर ब्लाउज सिलाई", desc: "बेहतरीन फिटिंग, आधुनिक कट्स और आपके पसंद के अनुसार अनुकूलित नेक डिज़ाइन्स।", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
         { id: "aari", title: "आरी और जरदोजी कढ़ाई वर्क", desc: "प्रीमियम जरी, मोतियों और धागों के साथ उत्तम दर्जे की हस्तनिर्मित कढ़ाई कला।", image: "https://images.meesho.com/images/products/908156114/8xnqe_512.webp?width=512" },
-        { id: "bridal", title: "दुल्हन (Bridal) ब्लाउज", desc: "शाही कढ़ाई, कस्टमाइज्ड पैडिंग और खूबसूरत लटकन के साथ विशेष शादी के ब्लाउज।", image: "/src/assets/images/bridal_blouse_maggam_1784565616116.jpg" },
+        { id: "bridal", title: "दुल्हन (Bridal) ब्लाउज", desc: "शाही कढ़ाई, कस्टमाइज्ड पैडिंग और खूबसूरत लटकन के साथ विशेष शादी के ब्लाउज।", image: "https://i.pinimg.com/236x/79/f8/bf/79f8bfedcbef1813700c2cd5f90ced17.jpg" },
         { id: "fancy", title: "फैंसी ब्लाउज", desc: "हाल्टर-नेक, बैकलेस, पफ-स्लीव्स और डिजाइनर पैचवर्क जो आपकी साड़ी को उत्कृष्ट लुक दे।", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
         { id: "punjabi", title: "पंजाबी ड्रेस और सलवार सूट", desc: "आरामदायक और उत्कृष्ट संरचना वाले पटियाला सूट, अनारकली और डिजाइनर सलवार कुर्ती।", image: "https://thenmozhidesigns.com/cdn/shop/files/3S2A9824.jpg" },
         { id: "kurti", title: "कुर्ती सिलाई", desc: "कॉलर्स and रचनात्मक आस्तीन डिज़ाइन्स के साथ स्टाइलिश ऑफिस वियर और डेली वियर कुर्तियां।", image: "https://i.pinimg.com/236x/41/34/2e/41342e071dcdf338e6d27fefbad17eda.jpg" },
