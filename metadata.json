@@ -1,0 +1,6 @@
+{
+  "name": "Rose Petals Boutique",
+  "description": "Rose Petals Boutique is a premium tailoring boutique and training institute in Pune, offering designer blouses, custom stitching, practical tailoring training, and healing services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

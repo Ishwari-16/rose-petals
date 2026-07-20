@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-primary: #C2185B;
+  --color-brand-secondary: #FF80AB;
+  --color-brand-accent: #FFD700;
+  --color-brand-charcoal: #1E1015;
+  --color-brand-pink-light: #FDE8EF;
+  --color-brand-pink-soft: #FDF4F7;
+  --color-brand-gold-muted: #E6C15C;
+}
+
+@layer utilities {
+  .glass-card-light {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  
+  .glass-card-dark {
+    background: rgba(30, 16, 21, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(194, 24, 91, 0.25);
+  }
+
+  .text-glow-gold {
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+  }
+
+  .text-glow-primary {
+    text-shadow: 0 0 10px rgba(194, 24, 91, 0.4);
+  }
+
+  .bg-radial-gradient {
+    background: radial-gradient(circle at center, var(--color-brand-secondary) 0%, transparent 70%);
+  }
+}
+
+/* Custom Scroll Progress Bar & Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-brand-pink-soft);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a01048;
+}
+
+/* Base custom classes for animated background */
+@keyframes float {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(3deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+.animate-float-slow {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-slower {
+  animation: float 9s ease-in-out infinite;
+}
+
+.animate-float-fast {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Smooth zoom effect */
+.img-zoom-container {
+  overflow: hidden;
+}
+.img-zoom-container img {
+  transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.img-zoom-container:hover img {
+  transform: scale(1.08);
+}
