@@ -1,7 +1,7 @@
 import bridalBlouse from "./bridal-blouse.jpeg";
 import blouse1 from "./blouse1.jpeg";
 import aari2 from "./aari2.jpeg";
-import fall from "fall.jpeg";
+import fall from "./fall.jpeg";
 export type Language = 'en' | 'hi' | 'mr';
 
 export interface TranslationDictionary {
