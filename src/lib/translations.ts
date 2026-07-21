@@ -330,7 +330,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       items: [
         { id: "blouse", title: "डिजाइनर ब्लाउज सिलाई", desc: "बेहतरीन फिटिंग, आधुनिक कट्स और आपके पसंद के अनुसार अनुकूलित नेक डिज़ाइन्स।", image: "https://i.ytimg.com/vi/Dblljh5iaxs/maxresdefault.jpg" },
         { id: "lehenga", title: "डिजाइनर लहंगा सिलाई", desc: "उत्सवों के लिए मनमोहक घेरदार लहंगे, कस्टमाइज्ड वेस्टलाइन और सुंदर मैचिंग ब्लाउज।", image: "https://www.trendbuy.co.in/cdn/shop/files/elegant-designer-lehenga-choli-exquisite-sequins-embroidery-for-women-view-13.webp?v=1773065067" },
-        { id: "bridal", title: "ब्राइडल ब्लाउज सिलाई", desc: "शाही कढ़ाई, कस्टमाइज्ड पैडिंग और खूबसूरत लटकन के साथ विशेष शादी के ब्लाउज।", image: "https://i0.wp.com/www.gounique.in/wp-content/uploads/2021/05/Latest-Bridal-Blouse-Designs.png?fit=1280%2C720&ssl=1" },
+        { id: "bridal", title: "ब्राइडल ब्लाउज सिलाई", desc: "शाही कढ़ाई, कस्टमाइज्ड पैडिंग और खूबसूरत लटकन के साथ विशेष शादी के ब्लाउज।", image: bridalBlouse },
         { id: "party", title: "पार्टी वियर ब्लाउज", desc: "हाल्टर-नेक, बैकलेस, पफ-स्लीव्स और डिजाइनर पैचवर्क जो आपकी साड़ी को उत्कृष्ट लुक दे।", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
         { id: "aari", title: "आरी वर्क", desc: "प्रीमियम जरी, मोतियों और धागों के साथ उत्तम दर्जे की हस्तनिर्मित आरी कढ़ाई कला।", image: "https://images.meesho.com/images/products/908156114/8xnqe_512.webp?width=512" },
         { id: "hand_embroidery", title: "हैंड एम्ब्रॉयडरी (Hand Embroidery)", desc: "आपकी पसंद के अनुसार उत्तम हस्तनिर्मित कढ़ाई, जरदोजी और कलात्मक धागे का काम।", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
