@@ -168,7 +168,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       subtitle: "Custom-made designer garments stitched to perfection for your special occasions",
       bookCta: "Inquire on WhatsApp",
       items: [
-        { id: "blouse", title: "Designer Blouse Stitching", desc: "Perfect fit, sophisticated cuts, and high-fashion neckline designs customized for you.", image: "http://10.226.39.176:3000/src/components/blouse1.jpeg" },
+        { id: "blouse", title: "Designer Blouse Stitching", desc: "Perfect fit, sophisticated cuts, and high-fashion neckline designs customized for you.", image: "src/components/blouse1.jpeg" },
         { id: "lehenga", title: "Designer Lehenga Stitching", desc: "Graceful festive wear featuring voluminous flares, custom waistlines, and coordinated blouses.", image: "https://www.trendbuy.co.in/cdn/shop/files/elegant-designer-lehenga-choli-exquisite-sequins-embroidery-for-women-view-13.webp?v=1773065067" },
      {
   id: "bridal",
