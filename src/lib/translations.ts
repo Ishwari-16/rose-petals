@@ -1,4 +1,11 @@
 import bridalBlouse from "./bridal-blouse.jpeg";
+import blouse from "./blouse.jpeg";
+import blouse1 from "./blouse1.jpeg";
+import blouse2 from "./blouse2.jpeg";
+import aari from "./aari.jpeg";
+import aari2 from "./aari2.jpeg";
+import Dress1 from "./Dress1.jpeg";
+import tradyblouse from "./tradyblouse.jpeg";
 export type Language = 'en' | 'hi' | 'mr';
 
 export interface TranslationDictionary {
@@ -168,7 +175,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       subtitle: "Custom-made designer garments stitched to perfection for your special occasions",
       bookCta: "Inquire on WhatsApp",
       items: [
-        { id: "blouse", title: "Designer Blouse Stitching", desc: "Perfect fit, sophisticated cuts, and high-fashion neckline designs customized for you.", image: "src/components/blouse1.jpeg" },
+        { id: "blouse", title: "Designer Blouse Stitching", desc: "Perfect fit, sophisticated cuts, and high-fashion neckline designs customized for you.", image: blouse1 },
         { id: "lehenga", title: "Designer Lehenga Stitching", desc: "Graceful festive wear featuring voluminous flares, custom waistlines, and coordinated blouses.", image: "https://www.trendbuy.co.in/cdn/shop/files/elegant-designer-lehenga-choli-exquisite-sequins-embroidery-for-women-view-13.webp?v=1773065067" },
      {
   id: "bridal",
@@ -178,9 +185,9 @@ export const translations: Record<Language, TranslationDictionary> = {
 },
         { id: "party", title: "Party Wear Blouse", desc: "Chic halter-necks, backless, puff-sleeves, and designer patchwork to elevate any saree.", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
         { id: "aari", title: "Aari Work", desc: "Exquisite hand-crafted embroidery featuring premium zari and gorgeous gemstone threadwork.", image: "https://images.meesho.com/images/products/908156114/8xnqe_512.webp?width=512" },
-        { id: "hand_embroidery", title: "Hand Embroidery", desc: "Beautiful custom hand embroidery, Zardosi work, and intricate detailing tailored to you.", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
+        { id: "hand_embroidery", title: "Hand Embroidery", desc: "Beautiful custom hand embroidery, Zardosi work, and intricate detailing tailored to you.", image: aari2 },
         { id: "shivan_classes", title: "Shivan Classes", desc: "Learn professional stitching from beginner to advanced level with practical guidance and hands-on training.", image: "https://www.pragatikiran.org/images/3.png" },
-        { id: "aari_classes", title: "Aari Work Classes", desc: "Learn traditional and modern Aari embroidery with professional techniques and creative designs.", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
+        { id: "aari_classes", title: "Aari Work Classes", desc: "Learn traditional and modern Aari embroidery with professional techniques and creative designs.", image: aari2 },
         { id: "alteration", title: "Dress Alteration", desc: "Reshape, resize, and modify your pre-owned premium wear to fit you like a glove.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10" },
         { id: "fall_pico", title: "Fall & Pico", desc: "Flawless saree finishing with premium cotton falls and delicate modern pico edge rolling.", image: "https://m.media-amazon.com/images/I/81lp4cNiB9L._AC_UY350_.jpg" },
         { id: "custom_design", title: "Custom Boutique Designing", desc: "Bespoke design creation from sketching to fabric sourcing and ultimate custom tailoring.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8NrKNiy1_iWrMZ27sa0f8aXGf42PTKVqzxXwr-qP2psxJ1WATcjMMjQ&s=10" },
@@ -333,9 +340,9 @@ export const translations: Record<Language, TranslationDictionary> = {
         { id: "bridal", title: "ब्राइडल ब्लाउज सिलाई", desc: "शाही कढ़ाई, कस्टमाइज्ड पैडिंग और खूबसूरत लटकन के साथ विशेष शादी के ब्लाउज।", image: bridalBlouse },
         { id: "party", title: "पार्टी वियर ब्लाउज", desc: "हाल्टर-नेक, बैकलेस, पफ-स्लीव्स और डिजाइनर पैचवर्क जो आपकी साड़ी को उत्कृष्ट लुक दे।", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
         { id: "aari", title: "आरी वर्क", desc: "प्रीमियम जरी, मोतियों और धागों के साथ उत्तम दर्जे की हस्तनिर्मित आरी कढ़ाई कला।", image: "https://images.meesho.com/images/products/908156114/8xnqe_512.webp?width=512" },
-        { id: "hand_embroidery", title: "हैंड एम्ब्रॉयडरी (Hand Embroidery)", desc: "आपकी पसंद के अनुसार उत्तम हस्तनिर्मित कढ़ाई, जरदोजी और कलात्मक धागे का काम।", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
+        { id: "hand_embroidery", title: "हैंड एम्ब्रॉयडरी (Hand Embroidery)", desc: "आपकी पसंद के अनुसार उत्तम हस्तनिर्मित कढ़ाई, जरदोजी और कलात्मक धागे का काम।", image: aari2 },
         { id: "shivan_classes", title: "सिलाई क्लासेस (Shivan Classes)", desc: "शुरुआती से उन्नत स्तर तक व्यावहारिक मार्गदर्शन और सिलाई मशीन का संपूर्ण प्रशिक्षण।", image: "https://www.pragatikiran.org/images/3.png" },
-        { id: "aari_classes", title: "आरी वर्क क्लासेस", desc: "पारंपरिक और आधुनिक आरी कढ़ाई को व्यावसायिक तकनीकों और नए डिज़ाइनों के साथ सीखें।", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
+        { id: "aari_classes", title: "आरी वर्क क्लासेस", desc: "पारंपरिक और आधुनिक आरी कढ़ाई को व्यावसायिक तकनीकों और नए डिज़ाइनों के साथ सीखें।", image: aari2 },
         { id: "alteration", title: "कपड़ों की अल्टरेशन (Dress Alteration)", desc: "अपने कीमती कपड़ों को नया जैसा फिटिंग और सुंदर आकार देने की सुविधा।", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10" },
         { id: "fall_pico", title: "फॉल और पीको (Fall & Pico)", desc: "प्रीमियम सूती फॉल और बारीक आधुनिक पीको फिनिशिंग के साथ साड़ी का उत्तम काम।", image: "https://m.media-amazon.com/images/I/81lp4cNiB9L._AC_UY350_.jpg" },
         { id: "custom_design", title: "कस्टम बुटीक डिजाइनिंग", desc: "फैशन स्केचिंग से लेकर कपड़े के चयन और अंतिम सिलाई तक संपूर्ण बुटीक सेवा।", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8NrKNiy1_iWrMZ27sa0f8aXGf42PTKVqzxXwr-qP2psxJ1WATcjMMjQ&s=10" },
@@ -486,7 +493,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         { id: "blouse", title: "डिझायनर ब्लाउज शिलाई", desc: "उत्कृष्ट फिटिंग, सुंदर गळ्याचे डिझाईन्स आणि तुमच्या आवडीनुसार कस्टमाइज्ड शिलाई काम.", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
         { id: "aari", title: "आरी आणि जरदोजी हस्तकला", desc: "जरी, रेशीम आणि आकर्षक मोत्यांच्या सहाय्याने केलेले अत्यंत नाजूक व भव्य आरी भरतकाम.", image: "https://images.meesho.com/images/products/908156114/8xnqe_512.webp?width=512" },
         { id: "bridal", title: "ब्राइडल (Bridal) ब्लाउज", desc: "लग्नासाठी विशेष डिझाइन केलेले ब्लाउज - पैठणी काठ, भरगच्च आरी कढई आणि सुंदर लटकन.", image: "https://www.trendbuy.co.in/cdn/shop/files/elegant-designer-lehenga-choli-exquisite-sequins-embroidery-for-women-view-13.webp?v=1773065067" },
-        { id: "fancy", title: "फॅन्सी ब्लाउज डिझाईन्स", desc: "हॉल्टर-नेक, बॅकलेस, पफ स्लीव्हज आणि आकर्षक पॅचवर्क जे साडीचे सौंदर्य द्विगुणित करते.", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
+        { id: "fancy", title: "फॅन्सी ब्लाउज डिझाईन्स", desc: "हॉल्टर-नेक, बॅकलेस, पफ स्लीव्हज आणि आकर्षक पॅचवर्क जे साडीचे सौंदर्य द्विगुणित करते.", image: aari2 },
         { id: "punjabi", title: "पंजाबी ड्रेस आणि सलवार सूट", desc: "आरामदायी पतियाळा सूट, डिझायनर अनारकली आणि परफेक्ट फिटिंग असणारे सलवार कमीज सट्स.", image: "https://thenmozhidesigns.com/cdn/shop/files/3S2A9824.jpg" },
         { id: "kurti", title: "कस्टम कुर्ती शिलाई", desc: "ऑफिस आणि रोजच्या वापरासाठी विविध कॉलर डिझाईन्स आणि आकर्षक बाह्यांचे डिझाईन्स असणाऱ्या कुर्ती.", image: "https://i.pinimg.com/236x/41/34/2e/41342e071dcdf338e6d27fefbad17eda.jpg" },
         { id: "lehenga", title: "डिझायनर लेहेंगा आणि घाघरा", desc: "मिरवणुका आणि सणांसाठी सुंदर घेरदार लेहेंगा, आकर्षक वेस्टलाईन आणि मॅचिंग कस्टमाइज्ड ब्लाउज.", image: "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=600" },

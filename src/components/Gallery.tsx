@@ -71,7 +71,7 @@ export default function Gallery() {
     {
       id: 6,
       category: 'blouse',
-      image: 'https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264',
+      image: aari2,
       title: 'Puff-Sleeve Designer Blouse',
       subtitle: 'Modern retro fusion blouse with elegant laces'
     },
