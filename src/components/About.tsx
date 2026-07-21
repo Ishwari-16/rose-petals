@@ -167,7 +167,7 @@ export default function About() {
             {/* 2x2 Counters Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Counter target={12} suffix="+" label="Years Experience" icon={<Award className="w-5 h-5" />} />
-              <Counter target={200} suffix="+" label="Premium Clients" icon={<Users className="w-5 h-5" />} />
+              <Counter target={2000} suffix="+" label="Premium Clients" icon={<Users className="w-5 h-5" />} />
               <Counter target={100} suffix="%" label="Practical Learning" icon={<CheckCircle className="w-5 h-5" />} />
               <Counter target={98} suffix="%" label="On-Time Delivery" icon={<Heart className="w-5 h-5" />} />
             </div>
