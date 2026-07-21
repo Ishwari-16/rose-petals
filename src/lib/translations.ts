@@ -178,7 +178,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         { id: "alteration", title: "Dress Alteration", desc: "Reshape, resize, and modify your pre-owned premium wear to fit you like a glove.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10" },
         { id: "fall_pico", title: "Fall & Pico", desc: "Flawless saree finishing with premium cotton falls and delicate modern pico edge rolling.", image: "https://m.media-amazon.com/images/I/81lp4cNiB9L._AC_UY350_.jpg" },
         { id: "custom_design", title: "Custom Boutique Designing", desc: "Bespoke design creation from sketching to fabric sourcing and ultimate custom tailoring.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8NrKNiy1_iWrMZ27sa0f8aXGf42PTKVqzxXwr-qP2psxJ1WATcjMMjQ&s=10" },
-        { id: "consultation", title: "Fashion Consultation", desc: "Personalized styling advice, silhouette suggestions, and material consulting for your occasions.", image: "/src/assets/images/about_tailor_workspace_1784565600891.jpg" }
+        { id: "consultation", title: "Fashion Consultation", desc: "Personalized styling advice, silhouette suggestions, and material consulting for your occasions.", image: "https://saaisnehstore.com/cdn/shop/articles/Saree_Blouse_Alterations_Auckland.webp?v=1781085803&width=1535" }
       ]
     },
     classes: {
@@ -333,7 +333,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         { id: "alteration", title: "कपड़ों की अल्टरेशन (Dress Alteration)", desc: "अपने कीमती कपड़ों को नया जैसा फिटिंग और सुंदर आकार देने की सुविधा।", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10" },
         { id: "fall_pico", title: "फॉल और पीको (Fall & Pico)", desc: "प्रीमियम सूती फॉल और बारीक आधुनिक पीको फिनिशिंग के साथ साड़ी का उत्तम काम।", image: "https://m.media-amazon.com/images/I/81lp4cNiB9L._AC_UY350_.jpg" },
         { id: "custom_design", title: "कस्टम बुटीक डिजाइनिंग", desc: "फैशन स्केचिंग से लेकर कपड़े के चयन और अंतिम सिलाई तक संपूर्ण बुटीक सेवा।", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8NrKNiy1_iWrMZ27sa0f8aXGf42PTKVqzxXwr-qP2psxJ1WATcjMMjQ&s=10" },
-        { id: "consultation", title: "फैशन कंसल्टेशन (Fashion Consultation)", desc: "आपके खास अवसरों के लिए व्यक्तिगत स्टाइलिंग, डिज़ाइन्स और फैब्रिक चयन पर मार्गदर्शन।", image: "/src/assets/images/about_tailor_workspace_1784565600891.jpg" }
+        { id: "consultation", title: "फैशन कंसल्टेशन (Fashion Consultation)", desc: "आपके खास अवसरों के लिए व्यक्तिगत स्टाइलिंग, डिज़ाइन्स और फैब्रिक चयन पर मार्गदर्शन।", image: "https://saaisnehstore.com/cdn/shop/articles/Saree_Blouse_Alterations_Auckland.webp?v=1781085803&width=1535" }
       ]
     },
     classes: {

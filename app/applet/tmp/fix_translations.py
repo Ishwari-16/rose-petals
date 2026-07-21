@@ -5,11 +5,11 @@ with open('src/lib/translations.ts', 'r', encoding='utf-8') as f:
 hi_start = content.find('hi: {')
 print('hi_start:', hi_start)
 
-idx_consult = content.find('image: "/src/assets/images/about_tailor_workspace_1784565600891.jpg" }', hi_start)
+idx_consult = content.find('image: "https://saaisnehstore.com/cdn/shop/articles/Saree_Blouse_Alterations_Auckland.webp?v=1781085803&width=1535" }', hi_start)
 print('idx_consult:', idx_consult)
 
 if idx_consult != -1:
-    end_consult = idx_consult + len('image: "/src/assets/images/about_tailor_workspace_1784565600891.jpg" }')
+    end_consult = idx_consult + len('image: "https://saaisnehstore.com/cdn/shop/articles/Saree_Blouse_Alterations_Auckland.webp?v=1781085803&width=1535" }')
     idx_classes = content.find('    classes: {', idx_consult)
     print('idx_classes:', idx_classes)
     
