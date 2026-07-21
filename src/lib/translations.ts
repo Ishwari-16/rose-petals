@@ -1,4 +1,4 @@
-import bridalBlouse from "../assets/bridal-blouse.jpeg";
+import bridalBlouse from "./bridal-blouse.jpeg";
 export type Language = 'en' | 'hi' | 'mr';
 
 export interface TranslationDictionary {
