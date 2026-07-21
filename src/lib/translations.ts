@@ -1,11 +1,7 @@
 import bridalBlouse from "./bridal-blouse.jpeg";
-import blouse from "./blouse.jpeg";
 import blouse1 from "./blouse1.jpeg";
-import blouse2 from "./blouse2.jpeg";
-import aari from "./aari.jpeg";
 import aari2 from "./aari2.jpeg";
-import Dress1 from "./Dress1.jpeg";
-import tradyblouse from "./tradyblouse.jpeg";
+import fall from "fall.jpeg";
 export type Language = 'en' | 'hi' | 'mr';
 
 export interface TranslationDictionary {
@@ -189,7 +185,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         { id: "shivan_classes", title: "Shivan Classes", desc: "Learn professional stitching from beginner to advanced level with practical guidance and hands-on training.", image: "https://www.pragatikiran.org/images/3.png" },
         { id: "aari_classes", title: "Aari Work Classes", desc: "Learn traditional and modern Aari embroidery with professional techniques and creative designs.", image: aari2 },
         { id: "alteration", title: "Dress Alteration", desc: "Reshape, resize, and modify your pre-owned premium wear to fit you like a glove.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10" },
-        { id: "fall_pico", title: "Fall & Pico", desc: "Flawless saree finishing with premium cotton falls and delicate modern pico edge rolling.", image: "https://m.media-amazon.com/images/I/81lp4cNiB9L._AC_UY350_.jpg" },
+        { id: "fall_pico", title: "Fall & Pico", desc: "Flawless saree finishing with premium cotton falls and delicate modern pico edge rolling.", image: fall },
         { id: "custom_design", title: "Custom Boutique Designing", desc: "Bespoke design creation from sketching to fabric sourcing and ultimate custom tailoring.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8NrKNiy1_iWrMZ27sa0f8aXGf42PTKVqzxXwr-qP2psxJ1WATcjMMjQ&s=10" },
         { id: "consultation", title: "Fashion Consultation", desc: "Personalized styling advice, silhouette suggestions, and material consulting for your occasions.", image: "https://saaisnehstore.com/cdn/shop/articles/Saree_Blouse_Alterations_Auckland.webp?v=1781085803&width=1535" }
       ]
@@ -344,7 +340,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         { id: "shivan_classes", title: "सिलाई क्लासेस (Shivan Classes)", desc: "शुरुआती से उन्नत स्तर तक व्यावहारिक मार्गदर्शन और सिलाई मशीन का संपूर्ण प्रशिक्षण।", image: "https://www.pragatikiran.org/images/3.png" },
         { id: "aari_classes", title: "आरी वर्क क्लासेस", desc: "पारंपरिक और आधुनिक आरी कढ़ाई को व्यावसायिक तकनीकों और नए डिज़ाइनों के साथ सीखें।", image: aari2 },
         { id: "alteration", title: "कपड़ों की अल्टरेशन (Dress Alteration)", desc: "अपने कीमती कपड़ों को नया जैसा फिटिंग और सुंदर आकार देने की सुविधा।", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10" },
-        { id: "fall_pico", title: "फॉल और पीको (Fall & Pico)", desc: "प्रीमियम सूती फॉल और बारीक आधुनिक पीको फिनिशिंग के साथ साड़ी का उत्तम काम।", image: "https://m.media-amazon.com/images/I/81lp4cNiB9L._AC_UY350_.jpg" },
+        { id: "fall_pico", title: "फॉल और पीको (Fall & Pico)", desc: "प्रीमियम सूती फॉल और बारीक आधुनिक पीको फिनिशिंग के साथ साड़ी का उत्तम काम।", image: fall },
         { id: "custom_design", title: "कस्टम बुटीक डिजाइनिंग", desc: "फैशन स्केचिंग से लेकर कपड़े के चयन और अंतिम सिलाई तक संपूर्ण बुटीक सेवा।", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8NrKNiy1_iWrMZ27sa0f8aXGf42PTKVqzxXwr-qP2psxJ1WATcjMMjQ&s=10" },
         { id: "consultation", title: "फैशन कंसल्टेशन (Fashion Consultation)", desc: "आपके खास अवसरों के लिए व्यक्तिगत स्टाइलिंग, डिज़ाइन्स और फैब्रिक चयन पर मार्गदर्शन।", image: "https://saaisnehstore.com/cdn/shop/articles/Saree_Blouse_Alterations_Auckland.webp?v=1781085803&width=1535" }
       ]
@@ -499,7 +495,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         { id: "lehenga", title: "डिझायनर लेहेंगा आणि घाघरा", desc: "मिरवणुका आणि सणांसाठी सुंदर घेरदार लेहेंगा, आकर्षक वेस्टलाईन आणि मॅचिंग कस्टमाइज्ड ब्लाउज.", image: "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=600" },
         { id: "nineyard", title: "नऊवारी साडी शिलाई", desc: "शाही आणि पारंपरिक लूकमध्ये सोयीस्कर अशा शाही मस्तानी, ब्राह्मणी नऊवारी साड्यांची शिलाई.", image: "https://cdn.shopify.com/s/files/1/2542/7564/files/Kolhapuri_Nauvari_Saree.png?v=1745227897" },
         { id: "kids", title: "मुलांचे कपडे (Kids Wear)", desc: "लहान मुलांसाठी मऊ, आरामदायक आणि आकर्षक पारंपरिक झबले, परकर-पोलके आणि फ्रॉक.", image: "https://www.anantexports.in/cdn/shop/files/IMG-20240830-WA0174.jpg?v=1774812394&width=1500" },
-        { id: "saree", title: "साडी फॉल, पिको आणि कुचू", desc: "उत्कृष्ट दर्जाचा सुती फॉल लावणे आणि अतिशय नाजूक पिको कडा तयार करण्याची तत्पर सेवा.", image: "https://m.media-amazon.com/images/I/81lp4cNiB9L._AC_UY350_.jpg" },
+        { id: "saree", title: "साडी फॉल, पिको आणि कुचू", desc: "उत्कृष्ट दर्जाचा सुती फॉल लावणे आणि अतिशय नाजूक पिको कडा तयार करण्याची तत्पर सेवा.", image: fall },
         { id: "alter", title: "परफेक्ट अल्टरेशन सर्व्हिसेस", desc: "तुमच्या जुन्या किंवा रेडिमेड महागड्या कपड्यांना अचूक आकार आणि उत्तम फिटिंग करून देणे.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10" },
         { id: "custom", title: "कस्टम फॅशन स्टिचिंग", desc: "Pinterest किंवा इंस्टाग्रामवरील कोणतीही डिझाईन आम्हाला दाखवा, आम्ही ती तशीच शिवून देऊ.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8NrKNiy1_iWrMZ27sa0f8aXGf42PTKVqzxXwr-qP2psxJ1WATcjMMjQ&s=10" }
       ]
