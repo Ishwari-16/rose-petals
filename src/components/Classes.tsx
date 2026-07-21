@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'motion/react';
 import { Check, Send, Scissors, Sparkles } from 'lucide-react';
-
+import bridalBlouse from "./assets/bridal-blouse.jpg";
 export default function Classes() {
   const { language } = useLanguage();
 
@@ -155,8 +155,9 @@ export default function Classes() {
             {/* Image Container with zoom */}
             <div className="relative h-64 overflow-hidden bg-brand-pink-light/20">
               <img
-                src="https://i0.wp.com/www.gounique.in/wp-content/uploads/2021/05/Latest-Bridal-Blouse-Designs.png?fit=1280%2C720&ssl=1"
-                alt={current.aariTitle}
+                <img
+                  src={bridalBlouse}
+                  alt={current.aariTitle}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
