@@ -233,7 +233,7 @@ export const translations: Record<Language, TranslationDictionary> = {
     },
     testimonials: {
       title: "What Our Customers Say",
-      subtitle: "Over 200+ happy customers and successful academy graduates in Pune",
+      subtitle: "Over 2000+ happy customers and successful academy graduates in Pune",
       ratingText: "Google Rating 4.5/5 stars based on verified boutique customers",
       items: [
         { name: "Priya Sharma", role: "Happy Saree Client", text: "The fit of my bridal blouse was absolutely spectacular! Chanchal Ma'am gave personal suggestions for the Aari embroidery work, and everyone at my wedding loved it. Highly recommended!" },

@@ -144,7 +144,7 @@ export default function Hero() {
               className="pt-6 border-t border-brand-primary/10 dark:border-brand-secondary/10 grid grid-cols-2 sm:grid-cols-4 gap-4"
             >
               <div>
-                <span className="block text-2xl sm:text-3xl font-serif font-bold text-brand-primary dark:text-brand-secondary">200+</span>
+                <span className="block text-2xl sm:text-3xl font-serif font-bold text-brand-primary dark:text-brand-secondary">2000+</span>
                 <span className="text-[11px] font-sans tracking-wider uppercase text-brand-charcoal/60 dark:text-brand-pink-light/60">Happy Clients</span>
               </div>
               <div>
