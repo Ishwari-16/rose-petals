@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'motion/react';
 import { Tag, Sparkles, Scissors, CheckCircle2, ShoppingBag, Send } from 'lucide-react';
-import shopImage from '../assets/images/about_tailor_workspace_1784565600891.jpg';
+import shopImage from './shop.jpeg';
 
 export default function Brands() {
   const { language } = useLanguage();
