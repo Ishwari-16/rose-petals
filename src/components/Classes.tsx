@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'motion/react';
 import { Check, Send, Scissors, Sparkles } from 'lucide-react';
-import bridalBlouse from "./assets/bridal-blouse.jpg";
+import bridalBlouse from "./bridal-blouse.jpeg";
 export default function Classes() {
   const { language } = useLanguage();
 
@@ -155,7 +155,6 @@ export default function Classes() {
             {/* Image Container with zoom */}
             <div className="relative h-64 overflow-hidden bg-brand-pink-light/20">
               <img
-                <img
                   src={bridalBlouse}
                   alt={current.aariTitle}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"

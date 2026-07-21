@@ -3,7 +3,13 @@ import { useLanguage } from '../context/LanguageContext';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, Eye, X, ZoomIn, Heart } from 'lucide-react';
 import bridalBlouse from "./bridal-blouse.jpeg";
-
+import blouse from "./blouse.jpeg";
+import blouse1 from "./blouse1.jpeg";
+import blouse2 from "./blouse2.jpeg";
+import aari from "./aari.jpeg";
+import aari2 from "./aari2.jpeg";
+import Dress1 from "./Dress1.jpeg";
+import tradyblouse from "./tradyblouse.jpeg";
 interface GalleryItem {
   id: number;
   category: 'blouse' | 'embroidery' | 'students' | 'boutique' | 'clients';
@@ -70,13 +76,6 @@ export default function Gallery() {
       subtitle: 'Modern retro fusion blouse with elegant laces'
     },
     {
-      id: 7,
-      category: 'embroidery',
-      image: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=600',
-      title: 'Zardosi Work Patch',
-      subtitle: 'Traditional neck design patch for bridal dress'
-    },
-    {
       id: 8,
       category: 'students',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10',
@@ -96,7 +95,56 @@ export default function Gallery() {
   image: bridalBlouse,
   title: 'Puff-Sleeve Designer Blouse',
   subtitle: 'Modern retro fusion blouse with elegant laces'
-}
+},
+{
+      id: 11,
+      category: 'blouse',
+      image: blouse,
+      title: 'Custom Fit Blouse',
+      subtitle: 'With custom padded stitching & sweetheart neckline'
+    },
+    {
+      id: 12,
+      category: 'blouse',
+      image: blouse1,
+      title: 'Custom Fit Blouse',
+      subtitle: 'With custom padded stitching & sweetheart neckline'
+    },
+    {
+      id: 13,
+      category: 'blouse',
+      image: blouse2,
+      title: 'Custom Fit Blouse',
+      subtitle: 'With custom padded stitching & sweetheart neckline'
+    },
+    {
+      id: 14,
+      category: 'embroidery',
+      image: aari,
+      title: 'Aari Work Patch',
+      subtitle: 'Traditional neck design patch for bridal dress'
+    },
+    {
+      id: 15,
+      category: 'embroidery',
+      image: aari2,
+      title: 'Aari Work Patch',
+      subtitle: 'Traditional neck design patch for bridal dress'
+    },
+    {
+      id: 16,
+      category: 'clients',
+      image: tradyblouse ,
+      title: 'Custom Nauvari Saree Fit',
+      subtitle: 'Marathi customer styled professionally for wedding'
+    },
+    {
+      id: 17,
+      category: 'clients',
+      image: Dress1 ,
+      title: 'Happy Dress Client',
+      subtitle: 'Happy and statisfied customer '
+    },
   ];
 
   const filteredItems = activeFilter === 'all'
