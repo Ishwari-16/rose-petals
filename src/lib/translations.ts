@@ -167,7 +167,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       subtitle: "Custom-made designer garments stitched to perfection for your special occasions",
       bookCta: "Inquire on WhatsApp",
       items: [
-        { id: "blouse", title: "Designer Blouse Stitching", desc: "Perfect fit, sophisticated cuts, and high-fashion neckline designs customized for you.", image: "/src/assets/images/hero_blouse_traditional_1784565585673.jpg" },
+        { id: "blouse", title: "Designer Blouse Stitching", desc: "Perfect fit, sophisticated cuts, and high-fashion neckline designs customized for you.", image: "https://i.ytimg.com/vi/Dblljh5iaxs/maxresdefault.jpg" },
         { id: "lehenga", title: "Designer Lehenga Stitching", desc: "Graceful festive wear featuring voluminous flares, custom waistlines, and coordinated blouses.", image: "https://www.trendbuy.co.in/cdn/shop/files/elegant-designer-lehenga-choli-exquisite-sequins-embroidery-for-women-view-13.webp?v=1773065067" },
         { id: "bridal", title: "Bridal Blouse Stitching", desc: "Premium wedding blouses with royal embroidery, customized padding, and designer tassels.", image: "/src/assets/images/bridal_blouse_maggam_1784565616116.jpg" },
         { id: "party", title: "Party Wear Blouse", desc: "Chic halter-necks, backless, puff-sleeves, and designer patchwork to elevate any saree.", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
@@ -322,7 +322,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       subtitle: "आपके विशेष अवसरों के लिए पूरी तरह से सिली गई प्रीमियम और डिजाइनर पोशाकें",
       bookCta: "व्हाट्सएप पर पूछें",
       items: [
-        { id: "blouse", title: "डिजाइनर ब्लाउज सिलाई", desc: "बेहतरीन फिटिंग, आधुनिक कट्स और आपके पसंद के अनुसार अनुकूलित नेक डिज़ाइन्स।", image: "/src/assets/images/hero_blouse_traditional_1784565585673.jpg" },
+        { id: "blouse", title: "डिजाइनर ब्लाउज सिलाई", desc: "बेहतरीन फिटिंग, आधुनिक कट्स और आपके पसंद के अनुसार अनुकूलित नेक डिज़ाइन्स।", image: "https://i.ytimg.com/vi/Dblljh5iaxs/maxresdefault.jpg" },
         { id: "lehenga", title: "डिजाइनर लहंगा सिलाई", desc: "उत्सवों के लिए मनमोहक घेरदार लहंगे, कस्टमाइज्ड वेस्टलाइन और सुंदर मैचिंग ब्लाउज।", image: "https://www.trendbuy.co.in/cdn/shop/files/elegant-designer-lehenga-choli-exquisite-sequins-embroidery-for-women-view-13.webp?v=1773065067" },
         { id: "bridal", title: "ब्राइडल ब्लाउज सिलाई", desc: "शाही कढ़ाई, कस्टमाइज्ड पैडिंग और खूबसूरत लटकन के साथ विशेष शादी के ब्लाउज।", image: "/src/assets/images/bridal_blouse_maggam_1784565616116.jpg" },
         { id: "party", title: "पार्टी वियर ब्लाउज", desc: "हाल्टर-नेक, बैकलेस, पफ-स्लीव्स और डिजाइनर पैचवर्क जो आपकी साड़ी को उत्कृष्ट लुक दे।", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
