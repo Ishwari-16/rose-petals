@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, Eye, X, ZoomIn, Heart } from 'lucide-react';
+import bridalBlouse from "./bridal-blouse.jpeg";
 
 interface GalleryItem {
   id: number;
@@ -88,7 +89,14 @@ export default function Gallery() {
       image: 'https://i.pinimg.com/236x/41/34/2e/41342e071dcdf338e6d27fefbad17eda.jpg',
       title: 'Happy Kurti Stitching Client',
       subtitle: 'Daily wear cotton kurti with neck-button styling'
-    }
+    },
+    {
+  id: 10,
+  category: 'blouse',
+  image: bridalBlouse,
+  title: 'Puff-Sleeve Designer Blouse',
+  subtitle: 'Modern retro fusion blouse with elegant laces'
+}
   ];
 
   const filteredItems = activeFilter === 'all'

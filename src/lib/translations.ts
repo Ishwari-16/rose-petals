@@ -169,7 +169,12 @@ export const translations: Record<Language, TranslationDictionary> = {
       items: [
         { id: "blouse", title: "Designer Blouse Stitching", desc: "Perfect fit, sophisticated cuts, and high-fashion neckline designs customized for you.", image: "https://i.ytimg.com/vi/Dblljh5iaxs/maxresdefault.jpg" },
         { id: "lehenga", title: "Designer Lehenga Stitching", desc: "Graceful festive wear featuring voluminous flares, custom waistlines, and coordinated blouses.", image: "https://www.trendbuy.co.in/cdn/shop/files/elegant-designer-lehenga-choli-exquisite-sequins-embroidery-for-women-view-13.webp?v=1773065067" },
-        { id: "bridal", title: "Bridal Blouse Stitching", desc: "Premium wedding blouses with royal embroidery, customized padding, and designer tassels.", image: "https://i0.wp.com/www.gounique.in/wp-content/uploads/2021/05/Latest-Bridal-Blouse-Designs.png?fit=1280%2C720&ssl=1" },
+        {
+  id: "bridal",
+  title: "Bridal Blouse Stitching",
+  desc: "Premium wedding blouses with royal embroidery, customized padding, and designer tassels.",
+  image: "https://i0.wp.com/www.gounique.in/wp-content/uploads/2021/05/Latest-Bridal-Blouse-Designs.png?fit=1280%2C720&ssl=1"
+},
         { id: "party", title: "Party Wear Blouse", desc: "Chic halter-necks, backless, puff-sleeves, and designer patchwork to elevate any saree.", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
         { id: "aari", title: "Aari Work", desc: "Exquisite hand-crafted embroidery featuring premium zari and gorgeous gemstone threadwork.", image: "https://images.meesho.com/images/products/908156114/8xnqe_512.webp?width=512" },
         { id: "hand_embroidery", title: "Hand Embroidery", desc: "Beautiful custom hand embroidery, Zardosi work, and intricate detailing tailored to you.", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
