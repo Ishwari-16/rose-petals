@@ -93,7 +93,7 @@ export default function Gallery() {
     {
   id: 10,
   category: 'blouse',
-  image: bridalBlouse,
+  image: "/src/assets/images/bridal_blouse_handcrafted.jpeg",
   title: 'Puff-Sleeve Designer Blouse',
   subtitle: 'Modern retro fusion blouse with elegant laces'
 }
