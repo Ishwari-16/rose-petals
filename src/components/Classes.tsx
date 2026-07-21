@@ -90,7 +90,7 @@ export default function Classes() {
             {/* Image Container with zoom */}
             <div className="relative h-64 overflow-hidden bg-brand-pink-light/20">
               <img
-                src="/src/assets/images/tailoring_classroom_1784565632821.jpg"
+                src="https://www.pragatikiran.org/images/3.png"
                 alt={current.shivanTitle}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
