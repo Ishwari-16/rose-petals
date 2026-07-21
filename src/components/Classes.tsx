@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'motion/react';
 import { Check, Send, Scissors, Sparkles } from 'lucide-react';
-import bridalBlouse from "./bridal-blouse.jpeg";
+import bridalBlouse from "../assets/bridal-blouse.jpeg";
 export default function Classes() {
   const { language } = useLanguage();
 

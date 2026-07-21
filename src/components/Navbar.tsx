@@ -28,6 +28,7 @@ export default function Navbar() {
     { name: t('nav.home'), href: '#home' },
     { name: t('nav.about'), href: '#about' },
     { name: t('nav.services'), href: '#services' },
+    { name: t('nav.brands'), href: '#brands' },
     { name: t('nav.classes'), href: '#classes' },
     { name: t('nav.healing'), href: '#healing' },
     { name: t('nav.gallery'), href: '#gallery' },

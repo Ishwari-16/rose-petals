@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, Eye, X, ZoomIn, Heart } from 'lucide-react';
-import bridalBlouse from "./bridal-blouse.jpeg";
+import bridalBlouse from "../assets/bridal-blouse.jpeg";
 import blouse from "./blouse.jpeg";
 import blouse1 from "./blouse1.jpeg";
 import blouse2 from "./blouse2.jpeg";

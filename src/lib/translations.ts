@@ -1,6 +1,6 @@
-import bridalBlouse from "./bridal-blouse.jpeg";
-import blouse1 from "./blouse1.jpeg";
-import aari2 from "./aari2.jpeg";
+import bridalBlouse from "../assets/bridal-blouse.jpeg";
+import blouse1 from "../components/blouse1.jpeg";
+import aari2 from "../components/aari2.jpeg";
 import fall from "./fall.jpeg";
 export type Language = 'en' | 'hi' | 'mr';
 
@@ -8,6 +8,7 @@ export interface TranslationDictionary {
   nav: {
     home: string;
     services: string;
+    brands: string;
     classes: string;
     about: string;
     gallery: string;
@@ -132,6 +133,7 @@ export const translations: Record<Language, TranslationDictionary> = {
     nav: {
       home: "Home",
       services: "Boutique Services",
+      brands: "Available Brands",
       classes: "Academy Classes",
       about: "About Us",
       gallery: "Design Gallery",
@@ -292,6 +294,7 @@ export const translations: Record<Language, TranslationDictionary> = {
     nav: {
       home: "मुख्य पृष्ठ",
       services: "बुटीक सेवाएं",
+      brands: "उपलब्ध ब्रांड्स",
       classes: "टेलरिंग क्लासेस",
       about: "हमारे बारे में",
       gallery: "डिज़ाइन गैलरी",
@@ -447,6 +450,7 @@ export const translations: Record<Language, TranslationDictionary> = {
     nav: {
       home: "मुख्य पृष्ठ",
       services: "बुटीक सेवा",
+      brands: "उपलब्ध ब्रँड्स",
       classes: "टेलरिंग क्लासेस",
       about: "आमच्याबद्दल",
       gallery: "डिझाईन गॅलरी",
