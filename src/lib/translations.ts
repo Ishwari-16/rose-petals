@@ -152,8 +152,8 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: "Our Story",
       subtitle: "Where Elegance Meets Craftsmanship",
       storyTitle: "Rose Petals Boutique & Academy",
-      storyText1: "Founded and curated by Chanchal Uday Kirad, Rose Petals Boutique represents the pinnacle of modern Indian design and bespoke tailoring in Pune. We merge classical Indian embroidery heritages like Aari and patchwork with contemporary international cuts.",
-      storyText2: "As a premier training institute, we are committed to empowering individuals by transferring the timeless art of tailoring. Whether you are a pure beginner looking to create your own clothing or an aspiring entrepreneur aiming to open your own boutique, our courses provide 100% practical knowledge, deep mentoring, and business guidance.",
+      storyText1: "Rose Petals Boutique specializes in Designer Blouse Stitching, Designer Lehenga Stitching, Bridal Wear, Aari Work, Custom Fashion Designing, and Professional Stitching Classes.",
+      storyText2: "We have proudly completed more than 2000 happy client orders with premium quality craftsmanship.",
       ownerBadge: "Chanchal Uday Kirad (Founder & Chief Designer)",
       features: [
         { title: "Premium Tailoring", desc: "Expert stitching tailored precisely to your unique measurements." },
@@ -167,18 +167,18 @@ export const translations: Record<Language, TranslationDictionary> = {
       subtitle: "Custom-made designer garments stitched to perfection for your special occasions",
       bookCta: "Inquire on WhatsApp",
       items: [
-        { id: "blouse", title: "Designer Blouse Stitching", desc: "Perfect fit, sophisticated cuts, and high-fashion neckline designs customized for you.", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
-        { id: "aari", title: "Aari & Zardosi Hand Embroidery", desc: "Exquisite hand-crafted embroidery featuring premium zari and gorgeous gemstone threadwork.", image: "https://images.meesho.com/images/products/908156114/8xnqe_512.webp?width=512" },
-        { id: "bridal", title: "Bridal Blouse Masterpieces", desc: "Premium wedding blouses with royal embroidery, customized padding, and designer tassels.", image: "https://i.pinimg.com/236x/79/f8/bf/79f8bfedcbef1813700c2cd5f90ced17.jpg" },
-        { id: "fancy", title: "Fancy Blouses", desc: "Chic halter-necks, backless, puff-sleeves, and designer patchwork to elevate any saree.", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
-        { id: "punjabi", title: "Punjabi Dresses & Salwar Suits", desc: "Comfortable and perfectly structured Patiala suits, Anarkalis, and premium designer wear.", image: "https://thenmozhidesigns.com/cdn/shop/files/3S2A9824.jpg" },
-        { id: "kurti", title: "Custom Kurti Stitching", desc: "Elegant daily-wear and office-wear Kurtis with creative collar and sleeve structures.", image: "https://i.pinimg.com/236x/41/34/2e/41342e071dcdf338e6d27fefbad17eda.jpg" },
-        { id: "lehenga", title: "Designer Lehenga & Ghagra", desc: "Graceful festive wear featuring voluminous flares, custom waistlines, and coordinated blouses.", image: "https://www.trendbuy.co.in/cdn/shop/files/elegant-designer-lehenga-choli-exquisite-sequins-embroidery-for-women-view-13.webp?v=1773065067" },
-        { id: "nineyard", title: "Nine Yard Saree (Nauvari) Stitching", desc: "Traditional Marathi Nauvari saree stitched professionally for a royal and comfortable drape.", image: "https://cdn.shopify.com/s/files/1/2542/7564/files/Kolhapuri_Nauvari_Saree.png?v=1745227897" },
-        { id: "kids", title: "Kids Wear", desc: "Cute, soft, and highly comfortable traditional dresses, frocks, and lehengas for children.", image: "https://www.anantexports.in/cdn/shop/files/IMG-20240830-WA0174.jpg?v=1774812394&width=1500" },
-        { id: "saree", title: "Saree Fall, Pico & Kuchu", desc: "Flawless saree finishing with premium cotton falls and delicate modern pico edge rolling.", image: "https://m.media-amazon.com/images/I/81lp4cNiB9L._AC_UY350_.jpg" },
-        { id: "alter", title: "Perfect Alteration Services", desc: "Reshape, resize, and modify your pre-owned premium wear to fit you like a glove.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10" },
-        { id: "custom", title: "Custom Fashion Stitching", desc: "Have a design from Pinterest? We will sketch, source fabric, and stitch it exactly as pictured.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8NrKNiy1_iWrMZ27sa0f8aXGf42PTKVqzxXwr-qP2psxJ1WATcjMMjQ&s=10" }
+        { id: "blouse", title: "Designer Blouse Stitching", desc: "Perfect fit, sophisticated cuts, and high-fashion neckline designs customized for you.", image: "/src/assets/images/hero_blouse_traditional_1784565585673.jpg" },
+        { id: "lehenga", title: "Designer Lehenga Stitching", desc: "Graceful festive wear featuring voluminous flares, custom waistlines, and coordinated blouses.", image: "https://www.trendbuy.co.in/cdn/shop/files/elegant-designer-lehenga-choli-exquisite-sequins-embroidery-for-women-view-13.webp?v=1773065067" },
+        { id: "bridal", title: "Bridal Blouse Stitching", desc: "Premium wedding blouses with royal embroidery, customized padding, and designer tassels.", image: "/src/assets/images/bridal_blouse_maggam_1784565616116.jpg" },
+        { id: "party", title: "Party Wear Blouse", desc: "Chic halter-necks, backless, puff-sleeves, and designer patchwork to elevate any saree.", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
+        { id: "aari", title: "Aari Work", desc: "Exquisite hand-crafted embroidery featuring premium zari and gorgeous gemstone threadwork.", image: "https://images.meesho.com/images/products/908156114/8xnqe_512.webp?width=512" },
+        { id: "hand_embroidery", title: "Hand Embroidery", desc: "Beautiful custom hand embroidery, Zardosi work, and intricate detailing tailored to you.", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
+        { id: "shivan_classes", title: "Shivan Classes", desc: "Learn professional stitching from beginner to advanced level with practical guidance and hands-on training.", image: "/src/assets/images/tailoring_classroom_1784565632821.jpg" },
+        { id: "aari_classes", title: "Aari Work Classes", desc: "Learn traditional and modern Aari embroidery with professional techniques and creative designs.", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
+        { id: "alteration", title: "Dress Alteration", desc: "Reshape, resize, and modify your pre-owned premium wear to fit you like a glove.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10" },
+        { id: "fall_pico", title: "Fall & Pico", desc: "Flawless saree finishing with premium cotton falls and delicate modern pico edge rolling.", image: "https://m.media-amazon.com/images/I/81lp4cNiB9L._AC_UY350_.jpg" },
+        { id: "custom_design", title: "Custom Boutique Designing", desc: "Bespoke design creation from sketching to fabric sourcing and ultimate custom tailoring.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8NrKNiy1_iWrMZ27sa0f8aXGf42PTKVqzxXwr-qP2psxJ1WATcjMMjQ&s=10" },
+        { id: "consultation", title: "Fashion Consultation", desc: "Personalized styling advice, silhouette suggestions, and material consulting for your occasions.", image: "/src/assets/images/about_tailor_workspace_1784565600891.jpg" }
       ]
     },
     classes: {
@@ -294,10 +294,10 @@ export const translations: Record<Language, TranslationDictionary> = {
       tagline: "प्रीमियम फैशन बुटीक और व्यावसायिक टेलरिंग अकादमी",
       headline: "रोज़ पेटल्स बुटीक के साथ अपनी खुद की अनूठी शैली बनाएं",
       ctaBook: "अपॉइंटमेंट बुक करें",
-      ctaClasses: "टेलरिंग क्लासेस से जुड़ें",
+      ctaClasses: "टेलरिंग क्लासेस में शामिल हों",
       ctaWhatsapp: "व्हाट्सएप पूछताछ",
       features: [
-        "प्रीमियम सिलाई",
+        "प्रीमियम सिलाई काम",
         "डिजाइनर ब्लाउज और आरी वर्क",
         "विशेषज्ञ टेलरिंग क्लासेस",
         "व्यक्तिगत मार्गदर्शन"
@@ -307,8 +307,8 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: "हमारी कहानी",
       subtitle: "जहां लालित्य शिल्प कौशल से मिलता है",
       storyTitle: "रोज़ पेटल्स बुटीक और अकादमी",
-      storyText1: "चंचल उदय किराड़ द्वारा स्थापित और संचालित, रोज़ पेटल्स बुटीक पुणे में आधुनिक भारतीय डिज़ाइन और कस्टम सिलाई का उत्कृष्ट उदाहरण है। हम आरी और पैचवर्क जैसे पारंपरिक भारतीय कढ़ाई कौशल को समकालीन फैशन डिज़ाइनों के साथ जोड़ते हैं।",
-      storyText2: "एक प्रमुख प्रशिक्षण संस्थान के रूप में, हम टेलरिंग की कला सिखाकर महिलाओं और इच्छुक लोगों को आत्मनिर्भर बनाने के लिए प्रतिबद्ध हैं। चाहे आप शुरुआती हों या अपना खुद का बुटीक व्यवसाय शुरू करना चाहते हों, हमारे कोर्सेज आपको 100% व्यावहारिक ज्ञान, गहन मार्गदर्शन और व्यावसायिक रणनीतियाँ प्रदान करते हैं।",
+      storyText1: "रोज़ पेटल्स बुटीक मुख्य रूप से डिजाइनर ब्लाउज सिलाई (Designer Blouse Stitching), डिजाइनर लहंगा सिलाई (Designer Lehenga Stitching), ब्राइडल वियर (Bridal Wear), आरी वर्क (Aari Work), कस्टमाइज्ड फैशन डिजाइनिंग और प्रोफेशनल सिलाई क्लासेस के लिए प्रसिद्ध है।",
+      storyText2: "हमने बेहद गर्व के साथ उत्कृष्ट शिल्प कौशल और प्रीमियम गुणवत्ता के साथ 2000 से अधिक खुशहाल ग्राहकों के ऑर्डर्स को सफलतापूर्वक पूरा किया है।",
       ownerBadge: "चंचल उदय किराड़ (संस्थापक और मुख्य डिजाइनर)",
       features: [
         { title: "प्रीमियम सिलाई", desc: "आपकी शारीरिक माप के अनुसार पूरी तरह से फिट और फिनिशिंग वाली सिलाई।" },
@@ -322,18 +322,18 @@ export const translations: Record<Language, TranslationDictionary> = {
       subtitle: "आपके विशेष अवसरों के लिए पूरी तरह से सिली गई प्रीमियम और डिजाइनर पोशाकें",
       bookCta: "व्हाट्सएप पर पूछें",
       items: [
-        { id: "blouse", title: "डिजाइनर ब्लाउज सिलाई", desc: "बेहतरीन फिटिंग, आधुनिक कट्स और आपके पसंद के अनुसार अनुकूलित नेक डिज़ाइन्स।", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
-        { id: "aari", title: "आरी और जरदोजी कढ़ाई वर्क", desc: "प्रीमियम जरी, मोतियों और धागों के साथ उत्तम दर्जे की हस्तनिर्मित कढ़ाई कला।", image: "https://images.meesho.com/images/products/908156114/8xnqe_512.webp?width=512" },
-        { id: "bridal", title: "दुल्हन (Bridal) ब्लाउज", desc: "शाही कढ़ाई, कस्टमाइज्ड पैडिंग और खूबसूरत लटकन के साथ विशेष शादी के ब्लाउज।", image: "https://i.pinimg.com/236x/79/f8/bf/79f8bfedcbef1813700c2cd5f90ced17.jpg" },
-        { id: "fancy", title: "फैंसी ब्लाउज", desc: "हाल्टर-नेक, बैकलेस, पफ-स्लीव्स और डिजाइनर पैचवर्क जो आपकी साड़ी को उत्कृष्ट लुक दे।", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
-        { id: "punjabi", title: "पंजाबी ड्रेस और सलवार सूट", desc: "आरामदायक और उत्कृष्ट संरचना वाले पटियाला सूट, अनारकली और डिजाइनर सलवार कुर्ती।", image: "https://thenmozhidesigns.com/cdn/shop/files/3S2A9824.jpg" },
-        { id: "kurti", title: "कुर्ती सिलाई", desc: "कॉलर्स and रचनात्मक आस्तीन डिज़ाइन्स के साथ स्टाइलिश ऑफिस वियर और डेली वियर कुर्तियां।", image: "https://i.pinimg.com/236x/41/34/2e/41342e071dcdf338e6d27fefbad17eda.jpg" },
-        { id: "lehenga", title: "डिजाइनर लहंगा और घाघरा", desc: "शानदार घेर, कस्टम वेस्टलाइन और मैचिंग ब्लाउज के साथ उत्सवों के लिए मनमोहक लहंगे।", image: "https://www.trendbuy.co.in/cdn/shop/files/elegant-designer-lehenga-choli-exquisite-sequins-embroidery-for-women-view-13.webp?v=1773065067" },
-        { id: "nineyard", title: "नौवारी साड़ी सिलाई", desc: "शाही और आरामदायक अनुभव के लिए पारंपरिक महाराष्ट्रीयन नौवारी साड़ी की सिलाई।", image: "https://cdn.shopify.com/s/files/1/2542/7564/files/Kolhapuri_Nauvari_Saree.png?v=1745227897" },
-        { id: "kids", title: "बच्चों के कपड़े (Kids Wear)", desc: "बच्चों के लिए प्यारे, मुलायम और अत्यंत आरामदायक पारंपरिक कपड़े, फ्रॉक और लहंगे।", image: "https://www.anantexports.in/cdn/shop/files/IMG-20240830-WA0174.jpg?v=1774812394&width=1500" },
-        { id: "saree", title: "साड़ी फॉल, पीको और कुचू", desc: "प्रीमियम सूती फॉल और नाजुक आधुनिक पीको फिनिशिंग के साथ साड़ी का उत्तम काम।", image: "https://m.media-amazon.com/images/I/81lp4cNiB9L._AC_UY350_.jpg" },
-        { id: "alter", title: "कपड़ों की अल्टरेशन सेवाएं", desc: "अपने कीमती और पुराने कपड़ों को नया जैसा फिटिंग और नया आकार देने की सुविधा।", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10" },
-        { id: "custom", title: "कस्टम फैशन डिजाइनिंग", desc: "Pinterest या इंस्टाग्राम पर कोई डिज़ाइन पसंद आया? हमें दिखाएं, हम वैसा ही बना देंगे।", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8NrKNiy1_iWrMZ27sa0f8aXGf42PTKVqzxXwr-qP2psxJ1WATcjMMjQ&s=10" }
+        { id: "blouse", title: "डिजाइनर ब्लाउज सिलाई", desc: "बेहतरीन फिटिंग, आधुनिक कट्स और आपके पसंद के अनुसार अनुकूलित नेक डिज़ाइन्स।", image: "/src/assets/images/hero_blouse_traditional_1784565585673.jpg" },
+        { id: "lehenga", title: "डिजाइनर लहंगा सिलाई", desc: "उत्सवों के लिए मनमोहक घेरदार लहंगे, कस्टमाइज्ड वेस्टलाइन और सुंदर मैचिंग ब्लाउज।", image: "https://www.trendbuy.co.in/cdn/shop/files/elegant-designer-lehenga-choli-exquisite-sequins-embroidery-for-women-view-13.webp?v=1773065067" },
+        { id: "bridal", title: "ब्राइडल ब्लाउज सिलाई", desc: "शाही कढ़ाई, कस्टमाइज्ड पैडिंग और खूबसूरत लटकन के साथ विशेष शादी के ब्लाउज।", image: "/src/assets/images/bridal_blouse_maggam_1784565616116.jpg" },
+        { id: "party", title: "पार्टी वियर ब्लाउज", desc: "हाल्टर-नेक, बैकलेस, पफ-स्लीव्स और डिजाइनर पैचवर्क जो आपकी साड़ी को उत्कृष्ट लुक दे।", image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=600" },
+        { id: "aari", title: "आरी वर्क", desc: "प्रीमियम जरी, मोतियों और धागों के साथ उत्तम दर्जे की हस्तनिर्मित आरी कढ़ाई कला।", image: "https://images.meesho.com/images/products/908156114/8xnqe_512.webp?width=512" },
+        { id: "hand_embroidery", title: "हैंड एम्ब्रॉयडरी (Hand Embroidery)", desc: "आपकी पसंद के अनुसार उत्तम हस्तनिर्मित कढ़ाई, जरदोजी और कलात्मक धागे का काम।", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
+        { id: "shivan_classes", title: "सिलाई क्लासेस (Shivan Classes)", desc: "शुरुआती से उन्नत स्तर तक व्यावहारिक मार्गदर्शन और सिलाई मशीन का संपूर्ण प्रशिक्षण।", image: "/src/assets/images/tailoring_classroom_1784565632821.jpg" },
+        { id: "aari_classes", title: "आरी वर्क क्लासेस", desc: "पारंपरिक और आधुनिक आरी कढ़ाई को व्यावसायिक तकनीकों और नए डिज़ाइनों के साथ सीखें।", image: "https://saaisnehstore.com/cdn/shop/articles/ChatGPT_Image_Jun_5_2026_12_23_22_AM.png?v=1780599264" },
+        { id: "alteration", title: "कपड़ों की अल्टरेशन (Dress Alteration)", desc: "अपने कीमती कपड़ों को नया जैसा फिटिंग और सुंदर आकार देने की सुविधा।", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRx4bGuNIx0Ojgla38HgG_OP1Dv7hKbt7xA1cIzDP35joJ-Qv2qILkTU&s=10" },
+        { id: "fall_pico", title: "फॉल और पीको (Fall & Pico)", desc: "प्रीमियम सूती फॉल और बारीक आधुनिक पीको फिनिशिंग के साथ साड़ी का उत्तम काम।", image: "https://m.media-amazon.com/images/I/81lp4cNiB9L._AC_UY350_.jpg" },
+        { id: "custom_design", title: "कस्टम बुटीक डिजाइनिंग", desc: "फैशन स्केचिंग से लेकर कपड़े के चयन और अंतिम सिलाई तक संपूर्ण बुटीक सेवा।", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8NrKNiy1_iWrMZ27sa0f8aXGf42PTKVqzxXwr-qP2psxJ1WATcjMMjQ&s=10" },
+        { id: "consultation", title: "फैशन कंसल्टेशन (Fashion Consultation)", desc: "आपके खास अवसरों के लिए व्यक्तिगत स्टाइलिंग, डिज़ाइन्स और फैब्रिक चयन पर मार्गदर्शन।", image: "/src/assets/images/about_tailor_workspace_1784565600891.jpg" }
       ]
     },
     classes: {
@@ -462,8 +462,8 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: "आमची कथा",
       subtitle: "जिथे अभिजातता आणि कारागिरी एकत्र येतात",
       storyTitle: "रोझ पेटल्स बुटीक आणि अकॅडमी",
-      storyText1: "चंचल उदय किराड यांच्याद्वारे स्थापित आणि संचलित, रोझ पेटल्स बुटीक हे पुणे शहरातील आधुनिक भारतीय डिझाईन आणि उत्कृष्ट कस्टमाइज्ड शिलाईचे एक अग्रगण्य केंद्र आहे. आम्ही आरी वर्क आणि पॅचवर्क सारख्या पारंपरिक भारतीय हस्तकलेला आधुनिक फॅशनसह जोडतो.",
-      storyText2: "एक प्रतिष्ठित प्रशिक्षण संस्था म्हणून, आम्ही टेलरिंगच्या कलेद्वारे महिलांना आणि गरजू व्यक्तींना आत्मनिर्भर करण्यासाठी बांधील आहोत. तुम्ही नवशिका असाल किंवा स्वतःचे बुटीक सुरू करू इच्छित असाल, आमचे कोर्सेस तुम्हाला १००% प्रॅक्टिकल ज्ञान, वैयक्तिक लक्ष आणि व्यवसाय सुरू करण्याचे उत्तम मार्गदर्शन देतात.",
+      storyText1: "रोझ पेटल्स बुटीक हे डिझायनर ब्लाउज शिलाई (Designer Blouse Stitching), डिझायनर लेहेंगा शिलाई (Designer Lehenga Stitching), ब्राइडल वेअर (Bridal Wear), आरी वर्क (Aari Work), कस्टमाइज्ड फॅशन डिझायनिंग आणि प्रोफेशनल शिलाई क्लासेसमध्ये (Shivan Classes) विशेष प्राविण्य राखते.",
+      storyText2: "आम्ही आमच्या उत्कृष्ट कारागिरी आणि प्रीमियम दर्जासह २००० हून अधिक समाधानी ग्राहकांच्या ऑर्डर अभिमानाने पूर्ण केल्या आहेत.",
       ownerBadge: "चंचल उदय किराड (संस्थापक आणि मुख्य डिझायनर)",
       features: [
         { title: "प्रीमियम शिलाई", desc: "तुमच्या शरीराच्या अचूक मापानुसार दर्जेदार आणि कम्फर्टेबल शिलाई." },

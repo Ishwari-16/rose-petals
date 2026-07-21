@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
+import Classes from './components/Classes';
 import Academy from './components/Academy';
 import WhyChooseUs from './components/WhyChooseUs';
 import Gallery from './components/Gallery';
@@ -56,6 +57,7 @@ export default function App() {
             <Hero />
             <About />
             <Services />
+            <Classes />
             <Academy />
             <WhyChooseUs />
             <HealingCenter />
