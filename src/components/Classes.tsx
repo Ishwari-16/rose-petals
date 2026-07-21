@@ -155,7 +155,7 @@ export default function Classes() {
             {/* Image Container with zoom */}
             <div className="relative h-64 overflow-hidden bg-brand-pink-light/20">
               <img
-                src="/src/assets/images/bridal_blouse_maggam_1784565616116.jpg"
+                src="https://i0.wp.com/www.gounique.in/wp-content/uploads/2021/05/Latest-Bridal-Blouse-Designs.png?fit=1280%2C720&ssl=1"
                 alt={current.aariTitle}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
